@@ -1,7 +1,5 @@
 ---
-const name = "Hello, World";
-const items = ["Dog", "Cat", "Platypus"];
-const visible = true;
+
 ---
 
 <html lang="en">
@@ -13,15 +11,10 @@ const visible = true;
     <title>Astro</title>
   </head>
   <body>
-    <h1>Astro</h1>
+    <h1>My Astro Learning Blog</h1>
     <a href="/">Home</a>
     <a href="/about/">About</a>
     <a href="/blog/">Blog</a>
-    <h2>{name}</h2>
-    <ul>
-      {items.map((item) => <li>{item}</li>)}
-    </ul>
-    {visible && <p>Show me!</p>}
-    {visible ? <p>Show meee!</p> : <p>Else, show me!</p>}
+    <p>This is where I will post about my journey learning Astro.</p>
   </body>
 </html>
